@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #FCAF02;
+    margin: 0px;
+    padding-inline: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top:0px;
+}
+nav>p{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav>ul>li{
+    padding-inline: 30px;
+    cursor: pointer;
+}
+.intro-section{
+    display: flex;
+    padding: 40px;
+    color: white;
+}
+img{
+    width: 600px;
+    height: 400px;
+}
+button{
+    background-color: #FCAF02;
+    width: 200px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+    font-size: 50px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact-section{
+    width: 100%;
+    color: #FCAF02;
+    padding: 40px;
+}
+input{
+    padding: 10px;
+    color: #FCAF02;
+    background-color: black;
+    border: 2px solid #FCAF02;
+    border-radius: 20px;
+    margin-top: 40px;
+    outline: none;
+}
+#name,#email{
+    width: 90%;
+}
+#tel,#city{
+    width: 40%;
+}
+#city{
+    margin-left: 120px;
+}
+
+form>button{
+    margin-top: 40px;
+    margin-inline: 40%;
+}
+.table-section{
+    padding: 40px;
+}
+table{
+    color: #FCAF02;
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+    width: 95%;
+}
+thead{
+    border: 2px solid #FCAF02;
+}
+td{
+    border-left: 2px solid #FCAF02;
+    padding: 20px;
+}
+
+td:nth-child(1){
+    text-align: center;
+}
+td:nth-child(2),td:nth-child(3){
+    padding-inline: 50px;
+}
+tfoot{
+    background-color: #FCAF02;
+    color: black;
+    
+}
+tfoot>tr>td:nth-child(1),tfoot>tr>td:nth-child(2){
+    border-right: 2px solid black;
+}
